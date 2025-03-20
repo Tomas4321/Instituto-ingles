@@ -13,6 +13,7 @@ const Estudiantes = () => {
             <h2>Nuestros <span className="span-testimonio">Estudiantes</span></h2>
         </div>
         <div className="carta-recomendacion">
+            <p>cambio</p>
             <Testimonio titulo="Tomas Donati" subtitulo="Excelente profesora, explica de manera clara y dinámica. ¡Aprender con ella es un gusto!" img={p1}></Testimonio>
             <Testimonio titulo="Mateo Mauro" subtitulo="Muy buena profe, siempre atenta y con mucha paciencia. 100% recomendada." img={p3}></Testimonio>
             <Testimonio titulo="Delfina Ferreyra" subtitulo="Sus clases son súper entretenidas y fáciles de entender, 100% recomendada." img={p2}></Testimonio>
