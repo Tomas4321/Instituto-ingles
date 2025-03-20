@@ -20,7 +20,7 @@ const Estudiantes = () => {
             <Testimonio titulo="Anonimo" subtitulo="Increíble profesora, siempre motivando y aclarando dudas con paciencia." img={p5}></Testimonio>
             <Testimonio titulo="Tomas Donati" subtitulo="Excelente profesora, explica de manera clara y dinámica. ¡Aprender con ella es un gusto!" img={p1}></Testimonio>
             <Testimonio titulo="Mateo Mauro" subtitulo="Muy buena profe, siempre atenta y con mucha paciencia. 100% recomendada." img={p3}></Testimonio>
-            <Testimonio titulo="Delfina Ferreyra" subtitulo="Sus clases son súper entretenidas y fáciles de entender. ¡Aprendí mucho!buena profe, siempre atenta y con mucha paciencia. 100% recomendada." img={p2}></Testimonio>
+            <Testimonio titulo="Delfina Ferreyra" subtitulo="Sus clases son súper entretenidas y fáciles de entender, 100% recomendada." img={p2}></Testimonio>
             <Testimonio titulo="Kevin Freijomil" subtitulo="Explica de forma clara y hace que el inglés sea más fácil. ¡Gran docente!." img={p4}></Testimonio>
             <Testimonio titulo="Anonimo" subtitulo="Increíble profesora, siempre motivando y aclarando dudas con paciencia." img={p5}></Testimonio>
         </div>
