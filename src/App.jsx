@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import Nav from './components/Nav';
 import './styles/app.css';
 import Growers from './sections/Growers';
+import Historia from './sections/Historia';
 import Servicios from './sections/Servicios';
 import Equipo from './sections/Equipo';
 import Preguntas from './sections/Preguntas';
@@ -12,6 +13,7 @@ import Estudiantes from './sections/Estudiantes';
 function App() {
   // Crear referencias para cada sección
   const growerRef = useRef(null);
+  const historiaRef = useRef(null);
   const serviciosRef = useRef(null);
   const equipoRef = useRef(null);
   const galeriaRef = useRef(null);
@@ -29,15 +31,18 @@ function App() {
       <Nav
         scrollToSection={scrollToSection}
         growerRef={growerRef}
+        historiaRef = {historiaRef}
         serviciosRef={serviciosRef}
         equipoRef={equipoRef}
         galeriaRef={galeriaRef}
-        testimonioRef = {testimonioRef}
         preguntasRef={preguntasRef}
         contactoRef={contactoRef}
       />
       <div ref={growerRef}>
         <Growers />
+      </div>
+      <div ref={historiaRef}>
+        <Historia/>
       </div>
       <div ref={equipoRef}>
         <Equipo />

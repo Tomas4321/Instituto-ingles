@@ -3,20 +3,22 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .titulo{
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
+    margin-top: 30px;
 }
 
 .carta-recomendacion{
     display: flex;
     justify-content: center;
     width: calc(260px * 10);
-    animation: carrusele 30s linear infinite; /* Aquí agregamos un retraso de 1.2s para que empiece después de la animación de entrada */
-    margin-bottom: 30px;
+    animation: carrusele 50s linear infinite; /* Aquí agregamos un retraso de 1.2s para que empiece después de la animación de entrada */
+    margin-bottom: 60px;
 }
 
 @keyframes carrusele {

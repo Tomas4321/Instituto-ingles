@@ -6,6 +6,7 @@ import profe2 from '../assets/chico2.webp'
 import profe3 from '../assets/chica1.webp'
 import profe4 from '../assets/chica2.webp'
 import InfoProfes from '../components/InfoProfes';
+import GrowersDesktop from '../components/GrowersDesktop'
 
 
 const Equipo = () => {
@@ -24,6 +25,7 @@ const Equipo = () => {
         <section className='equipo-container' id='profesores'>
             <div className='container-general'>
             <GrowersDesktopAlrevez></GrowersDesktopAlrevez>
+            <GrowersDesktop></GrowersDesktop>
                     <h2>Nuestros <span className='span-titulo'>Teachers</span></h2>
                     <div className='equipo-tablet'>
                         <InfoProfes nombre ="Marisa" img={profe3} info = "Hola soy marisa tengo 40 años, vivo en ....., me dedico a esto de ......., estamos dando clases en ......"> </InfoProfes>

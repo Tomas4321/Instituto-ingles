@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .preguntas-container h2 {
@@ -17,6 +17,7 @@
     line-height: 31.356px;
     margin: 10px 0;
     margin-top: 11vh;
+    
 }
 
 .preguntas-container h2 span {

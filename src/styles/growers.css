@@ -69,15 +69,6 @@
     width: auto;
 }
 
-.growers-mobile {
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    width: 100%;
-    height: auto;
-    cursor: auto;
-}
-
 .titulo-growers {
     color: #1E1926;
     text-align: center;

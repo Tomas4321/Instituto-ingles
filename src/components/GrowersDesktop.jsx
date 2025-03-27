@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/growers.css"
+import "../styles/Equipo.css"
 
 const GrowersDesktop = () => {
     return (

@@ -17,9 +17,18 @@
     overflow: hidden;
 }
 
+.growers-mobile {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    cursor: auto;
+}
+
 .growers-mobile-alrevez {
     position: absolute;
-    top: 0;
+    top: -1px;
     left: 0;
     width: 100%;
     height: auto;
@@ -94,6 +103,21 @@ h3{
         display: flex;
     }
 
-    
+    .growers-mobile-alrevez {
+        position: absolute;
+        top: -2px;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
 
+    .growers-mobile {
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        cursor: auto;
+    }
+    
 }
