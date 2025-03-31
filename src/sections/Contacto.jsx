@@ -48,17 +48,17 @@ const Contacto = () => {
             </div>
             <div className='contacto-informacion'>
                 <h3>Informacion</h3>
-                <InformacionContacto svg={iconoUbicacion} informacion='Colombia 489, Tandil, BA'></InformacionContacto>
+                <InformacionContacto svg={iconoUbicacion} informacion='Yrigoyen 1332, Tandil, BA'></InformacionContacto>
                 <InformacionContacto svg={iconoEmail} informacion='egrowersschool@gmail.com' direccion='mailto:egrowersschool@gmail.com'></InformacionContacto>
-                <InformacionContacto svg={iconoTelefono} informacion='2494 630209 '></InformacionContacto>
-                <InformacionContacto svg={iconoWhatsapp} informacion='Whatsapp: 2494 630209' direccion='https://wa.me/542494630209'></InformacionContacto>
+                <InformacionContacto svg={iconoTelefono} informacion='2494 675012 '></InformacionContacto>
+                <InformacionContacto svg={iconoWhatsapp} informacion='Whatsapp: 2494 675012' direccion='https://wa.me/542494630209'></InformacionContacto>
                 <InformacionContacto svg={iconoInstagram} informacion='egrowers_school' direccion='https://www.instagram.com/egrowers_school/' ></InformacionContacto>
             </div>
             <a href="https://www.google.com/maps/place/Colombia+489,+B7001+Tandil,+Provincia+de+Buenos+Aires/@-37.3201372,-59.1127048,17z/data=!3m1!4b1!4m6!3m5!1s0x95911fe42b5f58df:0x9ca3d1a48e40e3d0!8m2!3d-37.3201372!4d-59.1127048!16s%2Fg%2F11c88p4ckh?entry=ttu&g_ep=EgoyMDI1MDIxOC4wIKXMDSoASAFQAw%3D%3D"  target="_blank" className='contacto-mapa'>
                 <img src={mapa} alt="Mapa" />
                 <div className='contacto-mapa-informacion'>
-                    <h5>COLOMBIA 489</h5>
-                    <h6>Colombia 489, Tandil, Buenos Aires, Argentina</h6>
+                    <h5>YRIGOYEN 1332</h5>
+                    <h6>Yrigoyen 1332, Tandil, Buenos Aires, Argentina</h6>
                     <p>View larger map</p>
                     <img src={mapaDireccion} alt="Dirección en el mapa" />
                 </div>

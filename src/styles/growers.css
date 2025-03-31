@@ -31,6 +31,19 @@
     text-align: center;
 }
 
+.informacion-growers-clases {
+    width: 85%;
+    height: 70px;
+}
+
+.informacion-growers-clases p{
+    color: #6B6B6B;
+    font-family: Raleway;
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
+    font-style: normal;
+    text-align: center;
+}
+
 .growers-informacion button {
     background: #764AF1;
     width: 230px;
@@ -74,7 +87,7 @@
     text-align: center;
     font-family: Raleway, sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     margin: 15px 0;
 }
 
@@ -82,36 +95,6 @@
     color: #FF0000;
     font-style: italic;
     font-weight: 700;
-}
-
-.growers-testimonios {
-    margin: 15px 0;
-    display: flex;
-    animation: entrada 1.2s linear forwards, carrusele 70s linear infinite 1.2s; /* Aquí agregamos un retraso de 1.2s para que empiece después de la animación de entrada */
-    width: calc(275px * 12 - 25px);
-    pointer-events: none;
-}
-
-@keyframes entrada {
-    0% {
-        transform: translateY(30px);
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0); /* Asegúrate de usar translateY para que se mueva verticalmente */
-    }
-}
-
-@keyframes carrusele {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(calc(-275px * 6)); /* Ajuste a 6 elementos si es necesario */
-    }
 }
 
 
@@ -139,42 +122,63 @@
 }
 
 /* Tablets pequeñas (≥ 600px) */
-@media (min-width: 600px) {
+@media (min-width: 767px) {
     .growers-section-home{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
+
     .growers-imagen {
-        height: 300px;
+        height: 450px;
+        margin-top: 4vh;
     }
 
     .growers-informacion {
-        width: 60%;
+        margin-top: 5vh;
+        width: 70%;
     }
 
     .titulo-growers {
-        font-size: 30px;
+        font-size: 50px;
+    }
+
+    .informacion-growers-clases p{
+        font-size: clamp(1.2rem, 1vw, 1.2rem);
     }
 
     .growers-informacion button {
-        width: 260px;
-        height: 40px;
-        font-size: 14px;
+        width: 320px;
+        height: 60px;
+        font-size: 18px;
+        margin-top: 3vh;
     }
 
 }
 
 
+@media (min-width: 799px) {
+    
+    .growers-imagen {
+        height: 550px;
+        margin-top: 4vh;
+    }
+
+    .informacion-growers-clases p{
+        font-size: clamp(1.2rem, 1vw, 1.2rem);
+    }
+
+}
+
 /* Laptops (≥ 1024px) */
 @media (min-width: 1024px) {
     .growers-section-home {
         flex-direction: row;
-        height: 75vh;
+        height: 85vh;
         justify-content: center;
     }
 
     .growers-informacion {
-        width: 45%;
+        width: 40%;
         align-items: start;
         margin: 0 30px;
     }
@@ -182,13 +186,25 @@
     .titulo-growers {
         text-align: start;
         font-size: 38px;
-        width: 450px;
+        width: 550px;
+    }
+
+    .informacion-growers-clases{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .informacion-growers-clases p{
+        font-size: clamp(1.2rem, 1vw, 1.2rem);
+        text-align: start;
     }
 
     .growers-imagen {
-        margin: 0 30px;
+        margin: 0 20px;
         width: auto;
-        height: 300px;
+        height: 450px;
     }
 
 

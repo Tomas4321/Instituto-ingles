@@ -45,6 +45,10 @@ const Growers = () => {
                         variants={zoomInFadeInLeft}
                     >
                         <h1 className='titulo-growers'>Aprendé Inglés con un Método <span> BACK-UP </span></h1>
+                        <div className='informacion-growers-clases'>
+                            <p>Mejora tu inglés con un enfoque dinámico y personalizado.</p>
+                            <p>Clases para todas las edades y niveles.</p>
+                        </div>
                         <button> <a href="https://api.whatsapp.com/send/?phone=2494630209&text&type=phone_number&app_absent=0" target='_blank'>Cupos limitados ¡Anotate hoy! </a> </button>
                     </motion.div>
                     <motion.div
