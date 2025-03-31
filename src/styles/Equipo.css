@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .desktop{
@@ -15,6 +14,7 @@
     width: 90%;
     max-width: 1080px;
     overflow: hidden;
+    margin-bottom: 5vh;
 }
 
 .growers-mobile {
@@ -46,16 +46,18 @@ h2{
     color: #FFF;
     text-align: center;
     font-family: Raleway;
-    font-size: 30px;
+    font-size: 32px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 55px; /* 128.761% */
-    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 50px;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
-h3{
+.titulo-profe h3{
     color: #FFFFFF;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 
 .container{
@@ -67,11 +69,10 @@ h3{
 .span-titulo{
     color: #FFF;
     font-family: Raleway;
-    font-size: 30px;
+    font-size: 32px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 55px;
-    text-transform: capitalize;  
+    font-weight: 700;
+    line-height: 50px;
 }
 
 .info-profe{
@@ -80,27 +81,27 @@ h3{
     flex-direction: column;
 }
 
-.titulo{
-    justify-items: center;
-}
 
 .foto-profe{
-    width: 165.739px;
-    height: 166.41px;
+    width: 105.884px;
+    height: 106.41px;
     flex-shrink: 0;
-    border-radius: 154.69px 154.69px 0px 154.69px;
+    border-radius: 65.075px 65.075px 0px 65.075px;
     object-fit: cover;
 }
 
 .texto-profe{
     color: #D5EAFF;
-    font-size: 14px;
+    font-size: 13px;
+    margin: 0
 }
 
 
 @media (min-width: 767px) {
     .equipo-tablet{
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .growers-mobile-alrevez {
@@ -120,4 +121,42 @@ h3{
         cursor: auto;
     }
     
+    .titulo-profe{
+        display: flex;
+        justify-content: center;
+    }
+
+    .info-profe {
+        width: 180px;
+    }
+    .texto-profe{
+        font-size: 16px;
+    }
+
+    .foto-profe{
+        width: 120.884px;
+        height: 122.41px;
+    }
+    
+    .profes {
+        margin: 10px 30px;
+    }
+    .container-general {
+        margin-bottom: 10vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .profes {
+        margin: 25px 50px;
+    }
+
+    .foto-profe{
+        width: 130.884px;
+        height: 132.41px;
+    }
+
+    .info-profe {
+        width: 250px;
+    }
 }

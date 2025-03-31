@@ -11,31 +11,21 @@ import GrowersDesktop from '../components/GrowersDesktop'
 
 const Equipo = () => {
 
-    const fadeInLeft = {
-        hidden: { opacity: 0, x: -70 },
-        visible: { opacity: 1, x: 0, transition: { duration: 1.2 } },
-    };
-
-    const fadeInRight = {
-        hidden: { opacity: 0, x: 70 },
-        visible: { opacity: 1, x: 0, transition: { duration: 1.2 } },
-    };
-
     return (
         <section className='equipo-container' id='profesores'>
             <div className='container-general'>
-            <GrowersDesktopAlrevez></GrowersDesktopAlrevez>
-            <GrowersDesktop></GrowersDesktop>
-                    <h2>Nuestros <span className='span-titulo'>Teachers</span></h2>
-                    <div className='equipo-tablet'>
-                        <InfoProfes nombre ="Marisa" img={profe3} info = "Hola soy marisa tengo 40 años, vivo en ....., me dedico a esto de ......., estamos dando clases en ......"> </InfoProfes>
-                        <InfoProfes nombre ="Simon" img={profe1} info = "Hola soy marisa tengo 40 años, vivo en ....., me dedico a esto de ......., estamos dando clases en ......"> </InfoProfes>
-                    </div>
-                    <div className='equipo-tablet'>
-                        <InfoProfes nombre ="Camila" img={profe4} info = "Hola soy marisa tengo 40 años, vivo en ....., me dedico a esto de ......., estamos dando clases en ......"> </InfoProfes>
-                        <InfoProfes nombre ="Kevin" img={profe2} info = "Hola soy marisa tengo 40 años, vivo en ....., me dedico a esto de ......., estamos dando clases en ......"> </InfoProfes>
-                    </div>
+                <GrowersDesktopAlrevez></GrowersDesktopAlrevez>
+                <GrowersDesktop></GrowersDesktop>
+                <h2>Nuestros <span className='span-titulo'>Teachers</span></h2>
+                <div className='equipo-tablet'>
+                    <InfoProfes nombre="Marisa" img={profe3} info="Hola soy marisa tengo 40 años, vivo en Tandil, soy profesora de ingles, estamos dando clases en back up"> </InfoProfes>
+                    <InfoProfes nombre="Simon" img={profe1} info="Hola soy marisa tengo 40 años, vivo en Tandil, soy profesora de ingles, estamos dando clases en back up"> </InfoProfes>
                 </div>
+                <div className='equipo-tablet'>
+                    <InfoProfes nombre="Camila" img={profe4} info="Hola soy marisa tengo 40 años, vivo en Tandil, soy profesora de ingles, estamos dando clases en back up"> </InfoProfes>
+                    <InfoProfes nombre="Kevin" img={profe2} info="Hola soy marisa tengo 40 años, vivo en Tandil, soy profesora de ingles, estamos dando clases en back up"> </InfoProfes>
+                </div>
+            </div>
         </section>
     )
 }

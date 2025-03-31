@@ -11,8 +11,8 @@ import GrowersDesktopAlrevez from "../components/GrowersDesktopAlrevez";
 const Estudiantes = () => {
    return (
     <div className="container-testimonio" id="testimonio">
-        <GrowersDesktopAlrevez></GrowersDesktopAlrevez>
-        <GrowersDesktop></GrowersDesktop>
+        {/* <GrowersDesktopAlrevez></GrowersDesktopAlrevez>
+        <GrowersDesktop></GrowersDesktop> */}
         <div className="titulo">
             <h2>Nuestros <span className="span-testimonio">Estudiantes</span></h2>
         </div>
