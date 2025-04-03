@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "../assets/logo.webp";
+import logo from "../assets/logo-ingles-letras-blancas-final.webp";
 import logoAzul from "../assets/logoAzul.webp"
 import "../styles/nav.css";
 import MenuIcon from "../components/MenuIcon";
@@ -42,7 +42,7 @@ const Nav = () => {
             {/* Logo */}
             <div className="logo">
                 <a href="/">
-                    <img src={logo} alt="Growers Logo" />
+                    <img src={logo} alt="Back-Up Logo" />
                 </a>
             </div>
 
